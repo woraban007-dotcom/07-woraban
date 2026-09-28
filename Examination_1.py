@@ -10,3 +10,13 @@
 # ==========================================
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+price0 = int(input())
+amount = int(input())
+price1 = float
+ifamount = 10
+price1 = price0 * 0.80
+print ("ต้้องจ่ายเงิน(price1)")
+elseamount >= 5
+price2 = price0 * 0.90
+print ("ต้องจ่ายเงิน(price2)")
+elseprint("ต้องจ่ายเงิน(price0)")
