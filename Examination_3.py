@@ -9,3 +9,12 @@
 # ==========================================
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
+A = int(input())
+B = int(input())
+C = int(input())
+ifA > B,C
+print(A)
+elseB > A,C
+print(B)
+elseC > A,B
+print(C)
