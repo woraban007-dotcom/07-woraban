@@ -1,0 +1,17 @@
+name: Autograding
+on: [push, pull_request]
+
+jobs:
+  grade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Test Runner
+        run: python .github/test_runner.py | tee -a $GITHUB_STEP_SUMMARY
